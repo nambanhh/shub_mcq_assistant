@@ -12,7 +12,7 @@ First, make sure you have Chrome and ChromeDriver installed properly, please ref
 Then, open config.ini and enter your username, password, class code, test number.
 
 
-A typical SHub test url is like this: `https://shub.edu.vn/class/RDMEA/homework/91791/test` where `RMDEA` is the class code and `91791` is the test number
+A typical SHub test url look like this: `https://shub.edu.vn/class/RDMEA/homework/91791/test` where `RMDEA` is the class code and `91791` is the test number
 ```
 [ACCOUNT]
 Username = <enter your SHub username>
