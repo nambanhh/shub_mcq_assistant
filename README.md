@@ -18,6 +18,6 @@ Configurations
 ------
 
 In config.ini, under `[SETTINGS]` section, you can change the csv file name.\
-`KeyFileName = key.csv`
+`KeyFileName = key.csv`\
 You can also change the pause time (in seconds) between each reload.\
 `SleepTime = 1`
