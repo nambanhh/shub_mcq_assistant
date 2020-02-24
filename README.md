@@ -8,7 +8,7 @@ I do not endorse using this to cheat on your tests
 How to use
 ------
 
-First, make sure you have Chrome and ChromeDriver installed properly, please refer to this [link](https://chromedriver.chromium.org/getting-started). If you are on Windows, you can extract `chromedriver.exe' to `C:\Windows`\
+First, make sure you have Chrome and ChromeDriver installed properly, please refer to this [link](https://chromedriver.chromium.org/getting-started). (If you are on Windows, you can extract `chromedriver.exe` to `C:\Windows\`)\
 Then, open config.ini and enter your username, password, class code, test number.
 
 
