@@ -6,14 +6,13 @@ How to use
 Open config.ini and enter your username, password, class code, test number.
 ```
 [ACCOUNT]
-Username = 
-Password = 
-[TEST] =
-ClassCode =
-TestNumber =
+Username = <enter your SHub username>
+Password = <enter your SHub password>
+[TEST]
+ClassCode = <enter your class code>
+TestNumber = <enter your test number>
 ```
-**NOTICE:** Your account must have already joined in the class that has the test you want to get answers.
-
+**WARNING:** Your account must have already joined in the class which contains the test that you want to get answers from.
 Configurations
 ------
 
