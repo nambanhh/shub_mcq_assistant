@@ -3,15 +3,16 @@
 How to use
 ------
 
-Open config.ini and enter your username, password, class code, test number.\
-```[ACCOUNT]
+Open config.ini and enter your username, password, class code, test number.
+```
+[ACCOUNT]
 Username = 
 Password = 
 [TEST] =
 ClassCode =
 TestNumber =
 ```
-**NOTICE:** Your account must have already joined in the class that has the test you want to get answers.\
+**NOTICE:** Your account must have already joined in the class that has the test you want to get answers.
 
 Configurations
 ------
