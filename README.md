@@ -13,10 +13,11 @@ ClassCode = <enter your class code>
 TestNumber = <enter your test number>
 ```
 **WARNING:** Your account must have already joined in the class which contains the test that you want to get answers from.
+
 Configurations
 ------
 
-In config.ini, under `[SETTINGS]` section, you can change the csv file name\
+In config.ini, under `[SETTINGS]` section, you can change the csv file name.
 `KeyFileName = key.csv`\
-You can also change the pause time (in seconds) between each reload\
+You can also change the pause time (in seconds) between each reload.
 `SleepTime = 1`\
