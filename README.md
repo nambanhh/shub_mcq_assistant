@@ -17,7 +17,7 @@ TestNumber = <enter your test number>
 Configurations
 ------
 
-In config.ini, under `[SETTINGS]` section, you can change the csv file name.
-`KeyFileName = key.csv`\
-You can also change the pause time (in seconds) between each reload.
-`SleepTime = 1`\
+In config.ini, under `[SETTINGS]` section, you can change the csv file name.\
+`KeyFileName = key.csv`
+You can also change the pause time (in seconds) between each reload.\
+`SleepTime = 1`
