@@ -3,8 +3,8 @@
 How to use
 ------
 
-First, make sure you have Chrome and ChromeDriver installed correctedly, please follow this [link](https://chromedriver.chromium.org/getting-started).\
-Open config.ini and enter your username, password, class code, test number.
+First, make sure you have Chrome and ChromeDriver installed properly, please follow this [link](https://chromedriver.chromium.org/getting-started).\
+Then, open config.ini and enter your username, password, class code, test number.
 ```
 [ACCOUNT]
 Username = <enter your SHub username>
