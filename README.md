@@ -1,5 +1,10 @@
 # MCQs assistant for SHub Classroom
 
+Disclaimer
+------
+
+I do not endorse using this to cheat on your tests
+
 How to use
 ------
 
@@ -16,7 +21,9 @@ Password = <enter your SHub password>
 ClassCode = <enter your class code>
 TestNumber = <enter your test number>
 ```
-**WARNING:** Your account must have already joined in the class which contains the test that you want to get answers from.
+**Please note:** Your account must have already joined in the class which contains the test that you want to get answers from.
+
+**WARNING:** Do not use your main account as running this script will use your first take of the test and leave the record on SHub server.
 
 Configurations
 ------
