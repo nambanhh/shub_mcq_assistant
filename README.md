@@ -1,4 +1,4 @@
-# MCQs assistant for SHub Classroom
+# [UNMAINTAINED] MCQs assistant for SHub Classroom
 
 Disclaimer
 ------
