@@ -1,4 +1,4 @@
-# [UNMAINTAINED] [KHÔNG TIẾP TỤC CẬP NHẬP] MCQs assistant for SHub Classroom
+# [UNMAINTAINED] [KHÔNG TIẾP TỤC CẬP NHẬT] MCQs assistant for SHub Classroom
 TIẾNG VIỆT
 ------
 Hướng dẫn tiếng Việt tại [đây](https://github.com/ngpnam261/shub_mcq_assistant/issues/1#issuecomment-614432741).
