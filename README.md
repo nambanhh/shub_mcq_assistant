@@ -15,14 +15,14 @@ First, make sure you have Chrome and ChromeDriver installed properly, please ref
 Then, open config.ini and enter your username, password, class code, test number.
 
 
-A typical SHub test url look like this: `https://shub.edu.vn/class/RDMEA/homework/91791/test` where `RMDEA` is the class code and `91791` is the test number
+A typical SHub test url look like this: `https://shub.edu.vn/class/ABCDE/homework/12345/test` where `ABCDE` is the class code and `12345` is the test number
 ```
 [ACCOUNT]
-Username = <enter your SHub username>
-Password = <enter your SHub password>
+Username = taikhoanphu
+Password = 123
 [TEST]
-ClassCode = <enter your class code>
-TestNumber = <enter your test number>
+ClassCode = ABCDE
+TestNumber = 12345
 ```
 **Please note:** Your account must have already joined in the class which contains the test that you want to get answers from.
 
