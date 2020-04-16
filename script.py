@@ -9,19 +9,19 @@ driver.get('https://shub.edu.vn/login')
 
 def start(username, password, class_code, test_number):
     #Enter username
-    input_username = driver.find_element_by_xpath('//*[@id="__next"]/div/form/div[1]/div/input')
+    input_username = driver.find_element_by_xpath('//*[@id="__next"]/div/div/div[2]/div/div[2]/form/div/div[1]/div/input')
     input_username.send_keys(username)
     #Enter password
-    input_password = driver.find_element_by_xpath('//*[@id="__next"]/div/form/div[2]/div/input')
+    input_password = driver.find_element_by_xpath('//*[@id="__next"]/div/div/div[2]/div/div[2]/form/div/div[2]/div/input')
     input_password.send_keys(password)
     #Submit
-    submit_button = driver.find_element_by_xpath('//*[@id="__next"]/div/form/button')
+    submit_button = driver.find_element_by_xpath('//*[@id="__next"]/div/div/div[2]/div/div[2]/form/div/button/span')
     driver.execute_script("arguments[0].click();", submit_button)
     #Navigate to test page
     time.sleep(sleep_time)
     driver.get(f'https://shub.edu.vn/class/{class_code}/homework/{test_number}/test') 
     time.sleep(sleep_time)
-    list_by_class = driver.find_elements_by_class_name('MuiTypography-body1')
+    list_by_class = driver.find_elements_by_class_name('MuiTypography-body2')
     return count_questions(list_by_class)
 
 def count_questions(list_by_class):
@@ -40,13 +40,13 @@ def refresh_page(idx, count, answer):
     driver.get(f'https://shub.edu.vn/class/{class_code}/homework/{test_number}/test')
     time.sleep(sleep_time)
     #Click number box
-    number_box = driver.find_element_by_xpath(f'//*[@id="__next"]/div/div[2]/div[3]/div[{idx}]/div')
+    number_box = driver.find_element_by_xpath(f'//*[@id="__next"]/div/div[2]/div[4]/div[{idx}]/div')
     driver.execute_script("arguments[0].click();", number_box)
     #Input answer
-    answer_input = driver.find_element_by_xpath(f'//*[@id="__next"]/div/div[2]/div[3]/div[{count + 1}]/div[2]/input')
+    answer_input = driver.find_element_by_xpath(f'//*[@id="__next"]/div/div[2]/div[4]/div[{count + 1}]/div[2]/input')
     answer_input.send_keys(answer)
     #Send answer
-    handin_button = driver.find_element_by_xpath('//*[@id="__next"]/div/div[2]/button[1]')
+    handin_button = driver.find_element_by_xpath('//*[@id="__next"]/div/div[2]/button[1]/span')
     driver.execute_script("arguments[0].click();", handin_button)
 
     time.sleep(sleep_time)
@@ -66,9 +66,9 @@ def brute_force(count):
 
             driver = refresh_page(idx, count, answer)
 
-            num_of_right_answers = driver.find_element_by_xpath('//*[@id="__next"]/div/div/div/div/div[3]/div/div/div[2]/div/div[2]/p[2]').get_attribute('innerHTML')
-
+            num_of_right_answers = driver.find_element_by_xpath('//*[@id="__next"]/div/div/div/div/div[3]/div/div/div[2]/div/div[5]/p').text
             if num_of_right_answers == '1':
+
                 print(f'#{idx} : {answer}')
                 write_to_csv(idx, answer, file_name)
                 break
